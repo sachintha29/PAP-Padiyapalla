@@ -3,7 +3,7 @@
 
 
 <mat-sidenav #sidenav>
-      <app-sidenav-list></app-sidenav-list>
+      <app-sidenav-list (closeSideNavigation)="sidenav.close()"></app-sidenav-list>
 </mat-sidenav>
 
 <mat-sidenav-content>  
