@@ -1,0 +1,12 @@
+.main-container{
+
+    height : 60vh;
+    background: url(/assets/images/dsc_0793-2.jpg)center center  no-repeat;
+    background-size: cover ;
+
+
+}
+
+.head-container{
+    padding : 100px;
+}

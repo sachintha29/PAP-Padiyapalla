@@ -1,14 +1,27 @@
-<nav mat-tab-nav-bar>
-  <span class="toolbar-flex"></span>
-  <mat-tab-group>
-    <mat-tab label="Home"></mat-tab>
-    <mat-tab label="Dash Board"></mat-tab>
-    <mat-tab label="Sign In"></mat-tab>
-    <mat-tab label="Contact"></mat-tab>
-    <mat-tab label="About"></mat-tab>
-  </mat-tab-group>
-  <span class="toolbar-flex"></span>
+<div class="navtabs-container">
+<nav mat-tab-nav-bar mat-tab-nav-bar fxFlex fxLayout fxLayoutAlign="center center">
+ <a mat-tab-link routerLink="/"
+ routerLinkActive #home="routerLinkActive"
+ [active]="home.isActive">
+ Home
+ </a>
+ <a mat-tab-link routerLink="/signin"
+ routerLinkActive #signin="routerLinkActive"
+ [active]="signin.isActive">
+ Sign in
+ </a>
+ <a mat-tab-link routerLink="/about"
+ routerLinkActive #about="routerLinkActive"
+ [active]="about.isActive">
+  About
+ </a>
+ <a mat-tab-link routerLink="/contact"
+ routerLinkActive #contact="routerLinkActive"
+ [active]="contact.isActive">
+ Contact
+ </a>
 
-  
+ </nav> 
+ </div>
 
-</nav>
+
