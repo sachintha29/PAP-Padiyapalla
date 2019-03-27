@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { SigninService } from '../signin.service';
+
 
 @Component({
   selector: 'app-signin',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SigninComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private service: SigninService
+  ) { }
 
   ngOnInit() {
+  }
+
+  loginGoogle() {
+    console.log('Login..');
+    this.service.login();
+  }
+
+  logout(){
+    this.service.logout();
   }
 
 }

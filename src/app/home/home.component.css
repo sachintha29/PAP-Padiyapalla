@@ -1,2 +1,45 @@
+.main-container{
 
+    height : 80vh;
+    background: url(/assets/images/dsc_1289-3.jpg)center center  no-repeat;
+    background-size: cover ;
+
+
+}
+
+img{
+    width: 100%;
+}
+
+.login-container{
+    padding: 50px;
+    padding-left: 1000px;
+}
+
+.login-button{
+    width: 170px;
+    color: white;
+    border : 1px solid white;
+    text-transform: uppercase;
+}
+
+.head-container{
+    height: 60vh;
+
+}
+.main-head-container{
+    padding-right: 800px;
+    padding-bottom: 420px;
   
+    
+   
+}
+  
+.main-head-container .mat-display-1 ,.mat-title{
+    color: whitesmoke
+
+}
+
+.main-head-container span{
+    color: rgb(152, 152, 172);
+}
