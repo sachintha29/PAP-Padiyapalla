@@ -1,0 +1,27 @@
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    
+
+  }
+  
+  .sign-in-container > * {
+    width: 400px;
+    outline-color: aquamarine;
+
+ }
+
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .forget-password{
+    color: blue;
+  }

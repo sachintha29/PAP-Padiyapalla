@@ -6,7 +6,11 @@ import { UsersComponent } from './users/users.component';
 import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { AboutComponent } from './about/about.component';
+import { DashbordComponent } from './dashbord/dashbord.component';
 import { ContactComponent } from './contact/contact.component';
+import { ForgetPasswordComponent } from './auth/forget-password/forget-password.component';
+import { VertifyEmailComponent } from './auth/vertify-email/vertify-email.component';
+import { AdminComponent } from './users/admin/admin.component';
 
 
 const routes: Routes = [
@@ -16,7 +20,14 @@ const routes: Routes = [
   { path : 'signin', component : SigninComponent },
   { path : 'signup', component : SignupComponent },
   { path : 'about', component : AboutComponent},
+  { path : 'dashboard', component:  DashbordComponent },
   { path : 'contact', component: ContactComponent},
+  { path : 'vertify-email', component: VertifyEmailComponent},
+  { path : 'forget-password', component:  ForgetPasswordComponent },
+  {path :  'admin', component : AdminComponent},
+
+
+
 ];
 
 @NgModule({
