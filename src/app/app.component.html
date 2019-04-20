@@ -2,29 +2,22 @@
 <mat-sidenav-container>
 
 
-<mat-sidenav #sidenav>
-      <app-sidenav-list (closeSideNavigation)="sidenav.toggle()"></app-sidenav-list>
-</mat-sidenav>
-
-<mat-sidenav-content>  
-      <app-header (SideNavigationToggle)="sidenav.toggle()"></app-header>
-      <app-navtabs></app-navtabs>
+      <mat-sidenav #sidenav>
+            <app-sidenav-list (closeSideNavigation)="sidenav.toggle()"></app-sidenav-list>
+      </mat-sidenav>
       
+      <mat-sidenav-content>  
+            <app-header (SideNavigationToggle)="sidenav.toggle()"></app-header>
+            <app-navtabs></app-navtabs>
+            <main>
+          
+              <router-outlet></router-outlet>
+             </main> 
+              
     
-      <main>
-      
-      <router-outlet></router-outlet>
-     </main> 
-
-</mat-sidenav-content>
-
-
-
-
-
-
-
-</mat-sidenav-container>
+ </mat-sidenav-content>
+    
+     
 
 
 

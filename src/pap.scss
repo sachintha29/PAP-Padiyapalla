@@ -72,7 +72,7 @@ $thea-accent: (
 
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 
-$pap-primary: mat-palette($thea-primary, 700, 300, 900);
+$pap-primary: mat-palette($thea-primary, 700, 500, 900);
 $pap-accent:  mat-palette($thea-accent, 500, 400, 700);
 
 // The warn palette is optional (defaults to red).
